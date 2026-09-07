@@ -11,12 +11,12 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY main.py ./app/
-COPY core ./app/core/
-COPY services ./app/services/
-COPY controllers ./app/controllers/
-COPY schemas ./app/schemas/
+COPY main.py .
+COPY core ./core/
+COPY services ./services/
+COPY controllers ./controllers/
+COPY schemas ./schemas/
 
 EXPOSE 8000
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
