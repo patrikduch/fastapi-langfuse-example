@@ -22,15 +22,19 @@ cd app
 copy .env.example .env
 ```
 
+Linux / macOS:
+
+```bash
+cd app
+cp .env.example .env
+```
+
 Set `OPENAI_API_KEY` in `.env`, then:
 
 ```powershell
 docker compose up --build
 ```
 
-```bash
-cp .env.example .env
-```
 
 Langfuse login (from init env): `admin@localhost.local` / `changeme123`  
 Project: `fastapi-openai`
