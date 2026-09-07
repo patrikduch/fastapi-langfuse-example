@@ -28,6 +28,10 @@ Set `OPENAI_API_KEY` in `.env`, then:
 docker compose up --build
 ```
 
+```bash
+cp .env.example .env
+```
+
 Langfuse login (from init env): `admin@localhost.local` / `changeme123`  
 Project: `fastapi-openai`
 
