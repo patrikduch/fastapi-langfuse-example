@@ -41,6 +41,8 @@ docker compose up --build
 Langfuse login (from init env): `admin@localhost.local` / `changeme123`  
 Project: `fastapi-openai`
 
+> These credentials come from `.env.example` and are for local development only. Change them before running this anywhere but your own machine.
+
 ## API
 
 `GET /health`
