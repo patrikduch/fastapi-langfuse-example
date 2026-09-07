@@ -17,6 +17,8 @@ Postgres, Redis, ClickHouse, and the Langfuse worker stay on the Compose network
 
 ## Setup
 
+MS Windows:
+
 ```powershell
 cd app
 copy .env.example .env
