@@ -77,3 +77,8 @@ app/
   schemas/chat.py
   docker-compose.yml
 ```
+
+
+## License
+
+See [LICENSE](LICENSE) for details.
